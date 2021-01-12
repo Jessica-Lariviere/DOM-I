@@ -97,11 +97,6 @@ midPage.src = "img/mid-page-accent.jpg";
 
 //Contact
 
-let contactTitle = 
-
-let contactP =
 
 
 //Footer
-
-let footerP =
