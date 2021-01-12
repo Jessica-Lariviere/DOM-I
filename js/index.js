@@ -40,3 +40,68 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+
+//nav
+
+let nav = document.querySelectorAll("nav a");
+
+nav[0].textContent= siteContent["nav"]["nav-item-1"];
+// nav[0].textContent= siteContent.nav["nav-item-2"];
+// nav[0].textContent= siteContent.nav["nav-item-3"];
+// nav[0].textContent= siteContent.nav["nav-item-4"];
+// nav[0].textContent= siteContent.nav["nav-item-5"];
+// nav[0].textContent= siteContent.nav["nav-item-6"];
+
+
+// h1, button, img
+let h1 = document.querySelector(".cta-text h1");
+
+let mainButton = document.querySelector(".cta-text button");
+
+let hero = document.querySelector("#cta-img")
+
+h1.textContent = "DOM IS AWESOME!"
+
+mainButton.textContent = "Get Started"
+
+hero.src = 'img/header-img.png'
+//
+
+//main
+
+let infoHeader = document.querySelectorAll(".text-content h4")
+
+infoHeader[0].textContent = "Features";
+infoHeader[1].textContent = "About";
+infoHeader[2].textContent = "Services";
+infoHeader[3].textContent = "Product";
+infoHeader[4].textContent = "Vision";
+
+let infoP= document.querySelectorAll(".text-content p")
+
+infoP[0].textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+infoP[1].textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+infoP[2].textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+infoP[3].textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+infoP[4].textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+
+let midPage = document.querySelector("#middle-img");
+
+midPage.src = "img/mid-page-accent.jpg";
+
+//Contact
+
+let contactTitle = 
+
+let contactP =
+
+
+//Footer
+
+let footerP =
